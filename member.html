@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành viên</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="modal">
+        <a href="index.html" class="">
+        <button class="btn2">TRỞ VỀ</button>
+        </a>
+        <div class="registration">
+            <header>
+                <h1 id="title">ĐĂNG KÝ THÀNH VIÊN</h1>
+                <p id="description">ĐIỀN XONG VUI LÒNG NHẤN GỬI !</p>
+            </header>
+            <form action="" id="survey-form">
+                <label id="name-label" class="top-label">HỌ VÀ TÊN: </label><input id="name" class="top-input" type="text"
+                    placeholder="NHẬP HỌ VÀ TÊN" required></input>
+    
+                <label id="email-label" class="top-label">EMAIL: </label><input id="email" class="top-input" type="email"
+                    placeholder="NHẬP EMAIL" required></input>
+    
+                  <label id="phone-label" class="top-label">SỐ ĐIỆN THOẠI: </label><input id="email" class="top-input" type="email"
+                    placeholder="NHẬP SỐ ĐIỆN THOẠI" required></input>
+      
+                <label id="number-label" class="top-label">ĐỊA CHỈ: </label><input id="number" class="top-input"
+                    type="number" placeholder="NHẬP ĐỊA CHỈ" min="1930" max="2005"></input>
+                <div id="dropdown-div">
+                    <label id="drop-label" for="dropdown">NGHỀ NGHIỆP: </label>
+                    <select id="dropdown" class="top-input">
+                        <option value="">(Chọn một)</option>
+                        <option value="IT">IT</option>
+                        <option value="DEV">DEV</option>
+                        <option value="DATA">DATA</option>
+                        <option value="GIANGVIEN">GIẢNG VIÊN</option>
+                        <option value="HOCSINH">HỌC SINH</option>
+                        <option value="SINHVIEN">SINH VIÊN</option>
+                        <option value="TESTER">TESTER</option>
+                        <option value="KHAC">KHÁC</option>
+                    </select>
+    </div>
+                <label>LÝ DO BẠN THAM GIA THÀNH VIÊN ?</label>
+                <textarea name="tell-us" cols="10" rows="8"class="top-input2"></textarea>
+    
+                <fieldset id="newsletter">
+                    <p>GIỚI TÍNH:</p>
+                    <label>NAM <input type="radio" name="n-and-u" value="NAM"></label>
+                    <label>NỮ <input type="radio" name="n-and-u" value="NU"></label>
+                </fieldset>
+    
+                <fieldset id="contact">
+                    <p>BẠN BIẾT NGÔN NGỮ NÀO ?</p>
+                    <label><input type="checkbox" name="contact-method" value="text">TIẾNG ANH</label>
+                    <label><input type="checkbox" name="contact-method" value="email">TIẾNG TRUNG</label>
+                    <label><input type="checkbox" name="contact-method" value="text">TIẾNG HÀN</label>
+                    <label><input type="checkbox" name="contact-method" value="email">TIẾNG NHẬT</label>
+                    <label><input type="checkbox" name="contact-method" value="text">TIẾNG NGA</label>
+                    <label><input type="checkbox" name="contact-method" value="email">KHÁC</label>
+                </fieldset>
+    
+                <fieldset id="terms">
+                    <p>BẠN ĐÃ BIẾT VỀ IT CHƯA ? <a href=""></a></p>
+                    <label>CÓ <input type="radio" name="t-and-c" value="yes"></label>
+                    <label>KHÔNG <input type="radio" name="t-and-c" value="no"></label>
+                </fieldset>
+                <button id="submit" class="button">GỬI</button>
+            </form>
+        </div>
+     <!-- <div class="form-member">
+            <div class="form-member-body">
+               <h3 class="text">ĐĂNG KÝ THÀNH VIÊN THAM GIA TRAO ĐỔI VỀ IT</h3>
+               
+                <div class="member-body">
+                    <input type="text" class="input1"placeholder="      Nhập tên của bạn">
+                    <input type="text" class="input1"placeholder="      Nhập số điện thoại">
+                    <input type="password" class="input1"placeholder="     Nhập email của bạn"><br><br>
+                    <label for="">Giới tính</label>
+                    <input type="radio"name="gioitinh">Nam
+                    <input type="radio"name="gioitinh">Nữ<br><br>
+                    <label for="">Nghề nghiệp</label>
+                    <select name="" id="">
+                        <option value="it">IT</option>
+                        <option value="dev">Dev</option>
+                        <option value="gv">Giảng viên</option>
+                        <option value="k">Khác</option>
+                    </select><br><br>
+                    <label for="">Lí do tham gia</label><br><br>
+                    <input type="comment"class="comment"placeholder="      Nhập bình luận">
+                </div>-->
+                
+	<!--<form><h1>ĐĂNG NHẬP</h1>
+		<label for="username">Tên đăng nhập:</label>
+		<input type="text" id="username" name="username"class="dangnhap"><br><br>
+		<label for="password">Mật khẩu:</label>
+		<input type="password" id="password" name="password"class="dangnhap"><br><br>
+		<input type="button" value="Đăng nhập" onclick="validateLogin()"class="nut">
+	</form>
+	<p id="loginMessage" style="color:red;display:none;">Tên đăng nhập hoặc mật khẩu không chính xác.</p>
+   
+               <button type="submit"class="btn5">Gửi</button>
+                <button type="reset"class="btn5">Làm lại</button>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
